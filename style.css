@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color: #373737;
+	position: relative;
+}
+.stopwatch{
+	margin: auto;
+	background-color: #3d3d3d;
+	width: 480px;
+	margin-top: 230px;
+	text-align: center;
+	box-shadow: 0px 0px  50px 20px #303030;
+
+}
+#output{
+	font-size: 62px;
+	color: #fff;
+	font-weight: lighter;
+	padding: 100px 0px 80px 0px;
+	text-shadow: 2px 2px 50px 20px #303030;
+}
+.controls{
+	padding: 0px 0px 30px 0px;
+	margin: 20px 0px;
+}
+button{
+	color: #888;
+	background-color: transparent;
+	border: 0px;
+	font-weight: lighter;
+	padding: 20px;
+	margin: 0px 10px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+#start{
+	background-color: #f55;
+	text-align: center;
+	box-shadow: 5px 5px 50px #303030;
+    transition: all 0.2s ease-in-out;
+    font-size: x-large;
+}
+#start:hover{
+	background-color: #ff6161;
+
+}
+.fa, .fas {
+    padding: 2px 13px;
+    font-size: x-large;
+}

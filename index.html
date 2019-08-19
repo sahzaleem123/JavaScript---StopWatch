@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript - StopWatch</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stopwatch">
+        <div class="display">
+            <h1 id="output">00 : 00 : 00</h1>
+        </div>
+        <div class="controls">
+            <button id="start" onclick="start()"><i class="fas fa-play"></i></button>
+            <button class="pause" onclick="pause()"><i class="fas fa-stop"></i></button>
+            <button class="reset" onclick="reset()"><i class="fas fa-redo"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
